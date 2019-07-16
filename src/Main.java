@@ -9,7 +9,12 @@ public class Main {
         cars.add("Ford");
         cars.add("Mazda");
 
-        Collections.sort(cars);  // Sort cars
+        for (int i = 0; i < cars.size(); i++) {
+            System.out.println(cars.get(i));
+        }
+        System.out.println();
+
+        Collections.sort(cars);  // triedenie aut
 
         for (String i : cars) {
             System.out.println(i);
